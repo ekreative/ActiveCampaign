@@ -1,0 +1,18 @@
+var URL = 'https://[name].api-us1.com/api/3';                               //update this value
+var API = '***********************************************************';    //update this value
+var URLgi = 'https://[name].api-us1.com';                                   //update this value
+
+var options =
+    {
+     'method' : 'GET',
+     'headers': {
+       'Api-Token': API
+      }
+    };
+
+function mainFunction() {
+   doGetAuto();
+   doGetCampaigns();
+   doGeneralInfo();
+}
+
